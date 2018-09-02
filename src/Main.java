@@ -1,9 +1,10 @@
-import Thread.MyThread;
+import Thread.TestMain;
 public class Main {
 
     public static void main(String[] args) {
-        MyThread a = new MyThread();
-        Thread t1 = new Thread(a);
-        t1.start();
+        TestMain main = new TestMain();
+        main.test1();
     }
+
+
 }
